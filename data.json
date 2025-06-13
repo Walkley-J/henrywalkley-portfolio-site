@@ -1,46 +1,30 @@
 {
   "name": "Henry Walkley",
   "title": "Computer Science Student",
-  "bio": "Excited to be learning programming!",
-  "skills": ["(some) Python"],
+  "bio": "Still learning!",
+  "skills": ["(some) Python","A 'smidge' of Unreal Engine 5"],
   "projects": [
     {
-      "name": "Note Taker",
-      "description": "A web platform for collaborative note-taking.",
-      "url": "https://github.com/yourusername/project-alpha",
-      "tech_stack": ["Flask", "React", "PostgreSQL"],
-      "screenshot": "static/screenshots/project-alpha.png",
-      "demo_url": "https://project-alpha-demo.example.com"
-    },
-    {
-      "name": "Social Media Dupe",
-      "description": "A personal project mimicking popular social media sites.",
-      "url": "https://github.com/yourusername/devconnector",
-      "tech_stack": ["Node.js", "Express", "MongoDB", "React"],
-      "screenshot": "static/screenshots/devconnector.png",
-      "demo_url": "https://devconnector-demo.example.com"
-    },
-    {
-      "name": "Web Development Capstone Project",
-      "description": "Final project for web development course.",
-      "url": "https://github.com/yourusername/devconnector",
-      "tech_stack": ["Node.js", "Express", "MongoDB", "React"],
-      "screenshot": "static/screenshots/devconnector.png",
-      "demo_url": "https://devconnector-demo.example.com"
+      "name": "Project Name",
+      "description": "Description",
+      "url": "insert github_url",
+      "tech_stack": ["List"],
+      "screenshot": "sample_screenshot.png",
+      "demo_url": "https://example.site"
     }
   ],
   "contact": {
-    "email": "alex.developer@email.com"
+    "email": "henrywalkley92@gmail.com"
   },
   "social": [
     {
       "name": "LinkedIn",
-      "url": "https://linkedin.com/in/alexdeveloper",
+      "url": "Under Construction",
       "icon": "bi-linkedin"
     },
     {
       "name": "GitHub",
-      "url": "https://github.com/yourusername",
+      "url": "https://github.com/Walkley-J",
       "icon": "bi-github"
     }
   ],
