@@ -1,8 +1,8 @@
 {
-  "name": "Alex Shaw",
-  "title": "Full Stack Software Developer",
-  "bio": "Passionate about building scalable web applications and user experiences. Experienced in Python, JavaScript, and cloud technologies.",
-  "skills": ["Flask", "React", "PostgreSQL", "Node.js", "Express", "MongoDB"],
+  "name": "Henry Walkley",
+  "title": "Computer Science Student",
+  "bio": "Excited to be learning programming!",
+  "skills": ["(some) Python"],
   "projects": [
     {
       "name": "Note Taker",
