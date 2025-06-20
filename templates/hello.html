@@ -15,7 +15,10 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
-            <a class="navbar-brand text-primary" href="#about">{{ profile.name }}</a>
+            <a class="navbar-brand d-flex align-items-center" href="#">
+              <img src="{{ url_for('static', filename='PXL_20250516_150906511.jpg') }}" alt="Avatar" class="avatar-img me-2">
+              {{ profile.name }}
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -123,6 +126,22 @@
                 {% endfor %}
             </div>
         </div>
+        <!-- Contact Form -->
+        <form method="POST" action="mailto:{{ profile.contact.email }}" enctype="text/plain" class="mx-auto" style="max-width: 420px;">
+          <div class="mb-3 text-start">
+            <label for="name" class="form-label"><i class="bi bi-person"></i> Name</label>
+            <input type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="mb-3 text-start">
+            <label for="email" class="form-label"><i class="bi bi-envelope"></i> Email</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="mb-3 text-start">
+            <label for="message" class="form-label"><i class="bi bi-chat-dots"></i> Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-outline-primary w-100"><i class="bi bi-send"></i> Send</button>
+        </form>
     </section>
 
     <script src="{{ url_for('static', filename='main.js') }}"></script>

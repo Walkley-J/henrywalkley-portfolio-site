@@ -1,9 +1,9 @@
 :root {
-    --primary: #2d72d9;
-    --secondary: #e3eafc;
-    --background: #f8fafc;
-    --text: #222;
-    --accent: #fff;
+    --primary: #d180f7;
+    --secondary: #263238;
+    --background: #121212;
+    --text: #e0e0e0;
+    --accent: #353535;
 }
 html { scroll-behavior: smooth; }
 body {
@@ -23,6 +23,7 @@ body {
     font-weight: 700;
     letter-spacing: 0.02em;
     font-size: 1.3rem;
+    color: var(--primary) !important;
 }
 .nav-link {
     color: var(--text) !important;
@@ -47,6 +48,12 @@ body {
     margin-bottom: 2.5rem;
     margin-top: 1rem;
 }
+.avatar-img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+}
 .section-title {
     font-size: 1.3rem;
     font-weight: 600;
@@ -67,7 +74,7 @@ body {
     border: none;
     box-shadow: 0 2px 24px rgba(45,114,217,0.05);
     transition: box-shadow 0.2s, transform 0.2s;
-    background: #fff;
+    background: #353535;
     border-radius: 18px;
     margin-bottom: 2rem;
     padding: 2rem 1.5rem 1.5rem 1.5rem;
@@ -137,7 +144,7 @@ body {
 }
 .card-text {
     font-size: 1.01em;
-    color: #555;
+    color: #1b1b1b;
     margin-bottom: 1.2rem;
 }
 .contact-btn {
@@ -166,6 +173,28 @@ body {
 
 .d-flex.flex-wrap.justify-content-center.gap-3 {
     margin-top: 2.5rem; /* moved from inline style */
+}
+
+.text-primary {
+    color: var(--primary) !important;
+}
+
+.bg-white {
+    background: var(--accent) !important;
+}
+
+body, .text-dark, .card-text, .card-title, .text-body, .text-secondary, .text-muted {
+    color: var(--text) !important;
+}
+form input, form textarea {
+    background: #232323;
+    color: var(--text);
+    border: 1px solid #444;
+}
+form input:focus, form textarea:focus {
+    background: #232323;
+    color: var(--text);
+    border-color: var(--primary);
 }
 
 @media (max-width: 600px) {

@@ -2,12 +2,12 @@
   "name": "Henry Walkley",
   "title": "Computer Science Student",
   "bio": "Still learning!",
-  "skills": ["(some) Python","A 'smidge' of Unreal Engine 5"],
+  "skills": ["Python","UE5"],
   "projects": [
     {
-      "name": "Project Name",
-      "description": "Description",
-      "url": "insert github_url",
+      "name": "Future Projects Found Here",
+      "description": "Check back soon!",
+      "url": "https://github.com/Walkley-J/",
       "tech_stack": ["List"],
       "screenshot": "sample_screenshot.png",
       "demo_url": "https://example.site"
